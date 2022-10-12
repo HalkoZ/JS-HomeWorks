@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+</head>
+<body style="padding: 0px; margin: 0px;">
+<div style="background-image: linear-gradient(to right, #ff4d4d 0%, #b645d8, #45d850 48%, #deff4d, #4dd5ff 100%);  height: 100vh;">
+<div style="display: flex; justify-content:center;">
+<img src="https://c4.wallpaperflare.com/wallpaper/968/890/504/pokemon-poke-balls-wet-wallpaper-preview.jpg"
+alt="pokeball"
+id="pokeball"
+style="border: 3px solid gray; border-radius: 10px; height: 500px; width: 800px;">
+</div>
+<div style="display: flex; justify-content:space-evenly; align-items:center; margin-top: 50px;">
+<button id="Pikachu" style="height: 50px; width: 150px; 
+color: yellow; background-color :black; border: 2px solid yellow; 
+cursor: pointer;">Pikachu</button>
+<button id="Charizard" style="height: 50px; width: 150px; 
+color: red; background-color :black; border: 2px solid red; 
+cursor: pointer;">Charizard</button>
+<button id="Gengar" style="height: 50px; width: 150px; 
+color: violet; background-color :black; border: 2px solid violet; 
+cursor: pointer;">Gengar</button>
+<button id="Bulbasaur" style="height: 50px; width: 150px; 
+color: aqua; background-color :black; border: 2px solid aqua; 
+cursor: pointer;">Bulbasaur</button>
+<button id="Eevee" style="height: 50px; width: 150px; 
+color: rgb(126, 73, 37); background-color :black; border: 2px solid rgb(126, 73, 37);
+cursor: pointer;">Eevee</button>
+
+</div>
+</div>
+<script>
+var yellow = "border: 3px solid yellow; height:500px; width: 800px; border-radius: 10px;"
+var red = "border: 3px solid red; height:500px; width: 800px; border-radius: 10px;"
+var purple = "border: 3px solid violet; height:500px; width: 800px; border-radius: 10px;"
+var blue= "border: 3px solid aqua; height:500px; width: 800px; border-radius: 10px;"
+var brown= "border: 3px solid rgb(126, 73, 37); height:500px; width: 800px; border-radius: 10px;"
+
+document
+.getElementById("Pikachu")
+.addEventListener("click", function(){
+document.getElementById("pokeball").src="https://c4.wallpaperflare.com/wallpaper/353/102/427/pokemon-yellow-pokemon-unlimited-anime-wallpaper-preview.jpg"
+document.getElementById("pokeball").style= yellow;
+});
+document
+.getElementById("Charizard")
+.addEventListener("click", function(){
+document.getElementById("pokeball").src="https://wallpaperaccess.com/full/5479829.jpg"
+document.getElementById("pokeball").style= red;
+});
+document
+.getElementById("Gengar")
+.addEventListener("click", function(){
+document.getElementById("pokeball").src="https://images.pling.com/img/00/00/60/98/21/1662785/1920x1080-16390950806401.jpg"
+document.getElementById("pokeball").style= purple;
+});
+document
+.getElementById("Bulbasaur")
+.addEventListener("click", function(){
+document.getElementById("pokeball").src="https://images.hdqwalls.com/wallpapers/bulbasaur-pokemon-dt.jpg"
+document.getElementById("pokeball").style= blue;
+});
+document
+.getElementById("Eevee")
+.addEventListener("click", function(){
+document.getElementById("pokeball").src="https://images6.alphacoders.com/648/648603.jpg"
+document.getElementById("pokeball").style= brown;
+});
+</script>
+</body>
+</html>
