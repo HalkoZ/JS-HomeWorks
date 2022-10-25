@@ -1,4 +1,4 @@
-var num1, num2, i, fb = 0, buzz = 0, fizz = 0;
+var num1, num2, i, fb = 0, buzz = 0, fizz =0;
 
 document.getElementById("calculate-button").addEventListener("click", function () {
 num1 = document.getElementById("num1").value;
